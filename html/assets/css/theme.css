@@ -6,6 +6,27 @@
   License URI: https://creativecommons.org/licenses/by/4.0/
   Version: 1.0
  */
+ 
+ .checkbox-counter{
+  text-align: center;
+ }
+.checkbox {
+  display: inline-block;
+  margin-right: 20px;
+}
+ .learnbtn{
+  position: relative;
+  padding: 10px;
+  background-color: #00D9A5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ .parra{
+  position: relative;
+  margin-left: auto;
+ }
 .mb-3 position-relative input{
   width: 100%;
 }
@@ -17,15 +38,17 @@
     margin-right: 600;
   }
   .mb-4 {
-    margin-left: 250px;
-  }
+    display: block;
+    text-align: center;
+
+  } 
   
-   .pt-4 {
+   /* .pt-4 {
     margin-left: 330px; 
   } 
  .pt-5{
   margin-left: 200px;
- }
+ } */
   .auth-form auth-form-reflow{
     position: relative;
     padding-top: 80px;
@@ -83,7 +106,7 @@ button:hover {
 }
  
  .google-button {
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,18 +120,17 @@ button:hover {
   transition: background-color 0.3s ease;
   text-decoration: none;
   margin-top: 10px;
-  margin-left: 200px;
     
   
 }
-.login-container form{
+/* .login-container form{
   width:50% ;
   margin-left: 200px;
-}
-.regestration-container form{
+} */
+/* .regestration-container form{
   width: 50%;
   margin-left: 200px;
-}
+} */
 
 .google-button:hover {
   background-color: #03a882;
@@ -220,6 +242,7 @@ button:hover {
 }
 
 .login-container .footer {
+  width: 100%;
   text-align: center;
   margin-top: 20px;
   font-size: 14px;
